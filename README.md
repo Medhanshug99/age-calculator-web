@@ -25,7 +25,7 @@ It uses a **JavaScript-based date picker** and the **Luxon library** for accurat
 
 - **HTML5**
 - **CSS3**
-- **Vanilla JavaScript**
+- **JavaScript**
 - **Flatpickr** (JavaScript Date Picker)
 - **Luxon** (Date & Time Library)
 
