@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.container {
+  background: #fff;
+  padding: 25px 22px;
+  width: 100%;
+  max-width: 360px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.18);
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 14px;
+  color: #555;
+}
+
+form {
+  margin-top: 22px;
+}
+
+/* Date Input Panel */
+.date-field {
+  position: relative;
+  margin-bottom: 18px;
+}
+
+.date-field input {
+  width: 100%;
+  padding: 14px 12px 14px 42px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: 1.8px solid #d0d4ff;
+  outline: none;
+  background: #f9faff;
+  transition: 0.3s;
+}
+
+.date-field input:focus {
+  border-color: #667eea;
+  background: #fff;
+}
+
+.date-field label {
+  position: absolute;
+  left: 42px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 14px;
+  color: #777;
+  pointer-events: none;
+  background: white;
+  padding: 0 5px;
+  transition: 0.25s ease;
+}
+
+.date-field.active label {
+  top: -6px;
+  font-size: 12px;
+  color: #667eea;
+}
+
+.date-field .icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  pointer-events: none;
+}
+
+button {
+  width: 100%;
+  padding: 11px;
+  border: none;
+  border-radius: 8px;
+  background: #667eea;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #5a67d8;
+}
+
+#result {
+  margin-top: 18px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
