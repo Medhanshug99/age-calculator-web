@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  font-family: Inter, Arial, sans-serif;
 }
 
 body {
@@ -9,26 +9,30 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(135deg, #667eea, #764ba2);
+  background: #eef6f5; /* soft blue-green */
 }
 
+/* Card */
 .container {
-  background: #fff;
-  padding: 25px 22px;
+  background: #ffffff;
+  padding: 26px 22px;
   width: 100%;
   max-width: 360px;
   border-radius: 14px;
   text-align: center;
-  box-shadow: 0 15px 30px rgba(0,0,0,0.18);
+  border: 1px solid #dbe8e6;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
 }
 
 h1 {
-  margin-bottom: 5px;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #1f3b3a;
 }
 
 p {
   font-size: 14px;
-  color: #555;
+  color: #5f7d7a;
 }
 
 form {
@@ -46,15 +50,15 @@ form {
   padding: 14px 12px 14px 42px;
   font-size: 15px;
   border-radius: 8px;
-  border: 1.8px solid #d0d4ff;
+  border: 1.6px solid #cfe3e0;
   outline: none;
-  background: #f9faff;
-  transition: 0.3s;
+  background: #f6fbfa;
+  transition: border-color 0.2s ease, background 0.2s ease;
 }
 
 .date-field input:focus {
-  border-color: #667eea;
-  background: #fff;
+  border-color: #4fb3a2;
+  background: #ffffff;
 }
 
 .date-field label {
@@ -63,17 +67,17 @@ form {
   top: 50%;
   transform: translateY(-50%);
   font-size: 14px;
-  color: #777;
+  color: #6b8f8b;
   pointer-events: none;
   background: white;
-  padding: 0 5px;
+  padding: 0 6px;
   transition: 0.25s ease;
 }
 
 .date-field.active label {
   top: -6px;
   font-size: 12px;
-  color: #667eea;
+  color: #4fb3a2;
 }
 
 .date-field .icon {
@@ -81,28 +85,37 @@ form {
   left: 12px;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 18px;
+  font-size: 17px;
+  color: #4fb3a2;
   pointer-events: none;
 }
 
+/* Button */
 button {
   width: 100%;
   padding: 11px;
   border: none;
   border-radius: 8px;
-  background: #667eea;
+  background: #4fb3a2;
   color: white;
   font-size: 15px;
+  font-weight: 500;
   cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
 }
 
 button:hover {
-  background: #5a67d8;
+  background: #429b8d;
 }
 
+button:active {
+  transform: scale(0.98);
+}
+
+/* Result */
 #result {
   margin-top: 18px;
   font-size: 16px;
-  font-weight: bold;
-  color: #333;
+  font-weight: 600;
+  color: #1f3b3a;
 }
