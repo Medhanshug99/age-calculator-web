@@ -1,4 +1,4 @@
-# Age Calculator 🧮
+# Age Calculator 
 
 A simple and modern Age Calculator built using **HTML, CSS, and JavaScript**.  
 This application calculates the **exact age in years, months, and days** based on the user's birthdate.
@@ -11,7 +11,7 @@ It uses a **JavaScript-based date picker** and the **Luxon library** for accurat
 (https://age-calculator-web-js.vercel.app/)
 
 ---
-## 🚀 Features
+##  Features
 
 - JavaScript date picker 
 - Exact age calculation 
@@ -21,7 +21,7 @@ It uses a **JavaScript-based date picker** and the **Luxon library** for accurat
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **HTML5**
 - **CSS3**
