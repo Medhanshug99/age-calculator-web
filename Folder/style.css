@@ -9,10 +9,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #eef6f5; /* soft blue-green */
+  background: #eef6f5; 
 }
 
-/* Card */
 .container {
   background: #ffffff;
   padding: 26px 22px;
@@ -112,10 +111,10 @@ button:active {
   transform: scale(0.98);
 }
 
-/* Result */
 #result {
   margin-top: 18px;
   font-size: 16px;
   font-weight: 600;
   color: #1f3b3a;
 }
+
